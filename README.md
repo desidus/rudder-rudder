@@ -1,1 +1,1 @@
-rudder
+Application that uses rudder-framework
