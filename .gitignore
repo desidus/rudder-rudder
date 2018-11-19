@@ -1,0 +1,3 @@
+.app/storage/**/*
+.app/vendor
+composer.lock
