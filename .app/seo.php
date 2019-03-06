@@ -28,8 +28,8 @@ $defaultMicrodata = function ($withoutContext = false, $toJSON = false)
 };
 
 return [
-    '/' => $defaultMicrodata,
-    '/articoli([\/\w\.-]*)/i' => function($page) use ($defaultMicrodata) {
+    '/\//' => $defaultMicrodata,
+    '/\/articoli([\/\w\.-]*)/i' => function($page) use ($defaultMicrodata) {
         $microdata = $defaultMicrodata();
         $microdata->setTitle($page);
         $microdata->setDescription($page);
